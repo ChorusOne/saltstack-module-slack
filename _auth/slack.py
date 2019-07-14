@@ -23,7 +23,7 @@ import salt.utils.http
 
 log = logging.getLogger(__name__)
 
-__virtualname__ = 'rest'
+__virtualname__ = 'slack'
 
 
 def __virtual__():
